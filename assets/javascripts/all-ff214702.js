@@ -15,13 +15,7 @@
 
   myApp = myApp || {};
 
-  myApp.sample = function(param) {
-    return console.log("Hello " + param);
-  };
-
-  $(function() {
-    return myApp.sample("World");
-  });
+  $(function() {});
 
 }).call(this);
 
